@@ -33,3 +33,9 @@
 img{
     border-radius: 20px;
 }
+
+.lorem {
+    max-width: 800px;
+    margin: 0 auto;
+    white-space: normal;
+}
