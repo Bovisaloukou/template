@@ -6,11 +6,12 @@ import { CarouseltwoComponent } from './carouseltwo/carouseltwo.component';
 import { ChefComponent } from './chef/chef.component';
 import { FooterComponent } from './footer/footer.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent,  CarouseloneComponent, CarouseltwoComponent, ChefComponent,  FooterComponent, CategoriesComponent],
+  imports: [RouterOutlet, NavbarComponent,  CarouseloneComponent, CarouseltwoComponent, ChefComponent,  FooterComponent, CategoriesComponent, ContactUsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
