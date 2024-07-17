@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Pour espacer les éléments */
+    margin-left: 8%;
+  }
+  
+  img {
+    order: 2; /* Place l'image en dernier */
+  }
+  .text-container{
+    padding-top: 10%;
+  }
+  h1, p {
+    text-align: left;
+  }
+  button{
+    margin-top: 10%;
+    background-color: black;
+  }
+  img {
+  float: right;
+}
+  

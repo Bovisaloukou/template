@@ -1,0 +1,43 @@
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0% 3%;
+    margin-top: auto;
+}
+.site-name {
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+}
+ p {
+    margin-left: -120px;
+    padding-top: 3%;
+    float: left;
+}
+.navigation-links {
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+.navigation-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.navigation-links a {
+    text-decoration: none;
+    color: #333;
+}
+.copyright {
+    margin-top: 100px;
+    font-size: 14px;
+    color: #777;
+}
+.social-icons {
+    margin-top: -20px;
+    float: right;
+}
+.social-icons a {
+    margin-right: 10px;
+    color: #333;
+}

@@ -1,0 +1,42 @@
+
+<nav class="navbar">
+    <a href="/" class="logo">Foodieland</a>
+    <div class="links" [class.mobile_menu]="mobileMenuVisible">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Recipes</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/">Contact</a></li>
+            <li><a href="/">About us</a></li>
+        </ul>
+    </div>
+    <div class="lien">
+        <a href="https://www.bing.com/ck/a?!&&p=ddab5d902beacd7dJmltdHM9MTcyMDkxNTIwMCZpZ3VpZD0xYzFiOTRhZi02NjZkLTZlOGUtMWJkMy04MDBiNjcxYTZmYzcmaW5zaWQ9NTE5MQ&ptn=3&ver=2&hsh=3&fclid=1c1b94af-666d-6e8e-1bd3-800b671a6fc7&psq=facebook&u=a1aHR0cHM6Ly9mci1mci5mYWNlYm9vay5jb20v&ntb=1"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.bing.com/ck/a?!&&p=c7128105eaa99c47JmltdHM9MTcyMDkxNTIwMCZpZ3VpZD0xYzFiOTRhZi02NjZkLTZlOGUtMWJkMy04MDBiNjcxYTZmYzcmaW5zaWQ9NTE5NQ&ptn=3&ver=2&hsh=3&fclid=1c1b94af-666d-6e8e-1bd3-800b671a6fc7&psq=X&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS9AWA&ntb=1"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.bing.com/ck/a?!&&p=7a79a8862d8a5e03JmltdHM9MTcyMDkxNTIwMCZpZ3VpZD0xYzFiOTRhZi02NjZkLTZlOGUtMWJkMy04MDBiNjcxYTZmYzcmaW5zaWQ9NTIwMQ&ptn=3&ver=2&hsh=3&fclid=1c1b94af-666d-6e8e-1bd3-800b671a6fc7&psq=instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8&ntb=1"><i class="fab fa-instagram"></i></a>
+    </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="menu">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+    
+      
+</nav>
+
+<script>
+        const menu = document.querySelector(".menu");
+        const links = document.querySelector(".links");
+
+        menu.addEventListener("click", () => {
+            links.classList.toggle('mobile_menu');
+        });
+
+
+        window.addEventListener("scrollY", function (){
+        let navbar = document.querySelector(".navbar")
+        if(window.scrollY > 100){
+            navbar.classList.add("scroll-active")
+        }else{
+            navbar.classList.remove("scroll-active")
+        }
+    })
+</script>

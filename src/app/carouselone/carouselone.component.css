@@ -1,0 +1,65 @@
+.container {
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Assure que le conteneur prend toute la hauteur de la fenêtre */
+    background-image: url("back.png");
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.one {
+     text-align: center;
+}
+h1{
+    padding-left: 7%;
+    margin: 5px;    
+    justify-self: center;
+    text-align: left;
+    width: 60%;
+    font-size: 3em;
+}
+h4{
+    padding-top: 15%;
+    margin-left: 350px;
+    justify-self: center;
+    text-align: left;
+    width: 50%;
+    font-size: 1.2em;
+}
+.gauche {
+    width: 40%; /* La moitié gauche de la page */
+    float: left; /* Pour que le contenu suive la mise en colonnes */
+    margin-right: 5px; /* Espacement entre les colonnes (ajustez selon vos préférences) */
+    padding: 0; /* Espacement interne du contenu */
+}
+.size-6{
+    width: 20px;   
+}
+.heure{
+    margin-top: 15px;
+    text-align: left;
+    position: absolute;
+    display: flex; /* Utilisez flexbox pour aligner les éléments horizontalement */
+    align-items: center; /* Centre verticalement les éléments */
+    left: 150px;
+}
+.heure svg {
+    margin-right: 10px; /* Espacement entre le SVG et le texte */
+  }
+  .heurep{
+    margin-top: 15px;
+    text-align: left;
+    position: absolute;
+    display: flex; /* Utilisez flexbox pour aligner les éléments horizontalement */
+    align-items: center; /* Centre verticalement les éléments */
+    left: 270px;
+}
+.heurep svg {
+    margin-right: 10px; /* Espacement entre le SVG et le texte */
+  }
+
+

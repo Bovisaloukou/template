@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between; /* Pour espacer les éléments */
+  }
+  
+.container2 h1{
+    text-align: left;
+    margin-left: 10%;
+}
+.container2 p{
+    text-align: right;
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-right: 80px;
+}
