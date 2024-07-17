@@ -1,0 +1,10 @@
+.categories{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-bottom: 6rem;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
