@@ -5,6 +5,7 @@
 .card{
     background-color: rgb(190, 218, 226);
     border-radius: 20px;
+    width: 300px;
 }
 /*.fixe-height{
     height: 300px;
