@@ -1,3 +1,18 @@
+.love{
+    margin-top: 1rem;
+    margin-left: 15rem;
+}
+.card{
+    background-color: rgb(190, 218, 226);
+    border-radius: 20px;
+}
+/*.fixe-height{
+    height: 300px;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
 /* .two h1{
     display: flex;
     align-items: center;
@@ -8,7 +23,7 @@
     align-items: center;
     justify-content: center;
 } */
-.grid {
+/*.grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
    place-items: center;
@@ -32,10 +47,4 @@
 }
 img{
     border-radius: 20px;
-}
-
-.lorem {
-    max-width: 800px;
-    margin: 0 auto;
-    white-space: normal;
-}
+}*/

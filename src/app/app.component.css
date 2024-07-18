@@ -22,3 +22,13 @@
     padding-top: 10px;
     margin-right: 80px;
 }
+.lorem {
+    max-width: 800px;
+    margin: 0 auto;
+    white-space: normal;
+}
+.image{
+    padding-left: 11rem;
+    padding-bottom: 5rem;
+    width: 100%;
+}
